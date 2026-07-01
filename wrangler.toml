@@ -1,0 +1,8 @@
+name = "email-otp-worker"
+main = "workers.js"          # or "src/index.js" if you put it there
+compatibility_date = "2026-07-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "email-store"
+database_id = "YOUR_DATABASE_ID"   # replace with your D1 database ID
